@@ -1,0 +1,1 @@
+export default function() { return (<div><h2 className='text-xl font-bold mb-4'>Mini Campaign Builder</h2><p>Module under development.</p></div>); }
