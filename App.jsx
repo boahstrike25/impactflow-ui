@@ -27,8 +27,9 @@ function App() {
             <button
               key={key}
               onClick={() => setActiveModule(key)}
-              className={\`text-left px-3 py-2 rounded \${activeModule === key ? 'bg-blue-200 font-semibold' : 'hover:bg-blue-100'}\`}
-            >
+              className={
+  "text-left px-3 py-2 rounded " + (activeModule === key ? "bg-blue-200 font-semibold" : "hover:bg-blue-100")}
+
               {key}
             </button>
           ))}
