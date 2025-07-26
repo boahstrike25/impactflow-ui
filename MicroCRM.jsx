@@ -1,0 +1,1 @@
+export default function() { return (<div><h2 className='text-xl font-bold mb-4'>Contact Manager (MicroCRM)</h2><p>Module under development.</p></div>); }
